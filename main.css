@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  header {
+    background-image: url("./assets/design1_image1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    width: 100%;
+    display: flex;
+  }
+  
+  #logo-img {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+    top: 250px;
+    left: 130px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-shadow: 2px 0.5px #000000;
+    font-size: 52px;
+  }
+  
+  .menu-aside {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a{
+    padding: 10px;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .parrafs {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .parrafs p {
+    margin: 10px 0;
+  }
+
+  h2{
+    padding-bottom: 10px;
+  }
+  
