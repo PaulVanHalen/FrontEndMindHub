@@ -16,6 +16,24 @@ html {
     width: 100%;
     display: flex;
   }
+  .title {
+    margin-bottom: 10px;
+  }
+
+  nav{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+  .button{
+    text-decoration: none;
+    background-color: #4174ff;
+    color: #ffffff;
+    position: relative;
+    left: 775px;
+    bottom: 20px;
+  }
   
   #logo-img {
     width: 90px;
@@ -23,14 +41,17 @@ html {
     margin-left: auto;
     margin-right: 20px;
     position: relative;
-    top: 250px;
-    left: 130px;
   }
   
   h1 {
-    color: #ffffff;
-    text-shadow: 2px 0.5px #000000;
+    color: #000000;
     font-size: 52px;
+  }
+  
+  .menu-aside {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
   
   .menu-aside {
