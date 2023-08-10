@@ -1,57 +1,93 @@
 html {
-    font-size: 16px;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-  }
-  
-  header {
-    background-image: url("./assets/design1_image1.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 20em;
-    width: 100%;
-    display: flex;
-  }
-  
-  nav {
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-left: 100px;
-  }
-  
-  .button {
-    text-decoration: none;
-    background-color: #4174ff;
-    color: #ffffff;
-    position: relative;
-    left: 575px;
-    bottom: 20px;
-  }
-  
-  h1 {
-    color: #000000;
-    font-size: 52px;
-  }
-  
-  a {
-    padding: 10px;
-  }
+  font-size: 16px;
+}
 
-  /* comienzo del centro del html */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
 
-  .subtitle {
-    margin: 1em;
-    font-size: 18px;
-    font-style: italic;
-  }
+header {
+  background-image: url("./assets/design1_image1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20em;
+  width: 100%;
+  display: flex;
+}
 
-  .subtitle-1{
-    margin: 1em;
-    font-size: 18px;
-    font-style: italic;
-    text-decoration: underline;
-  }
+nav {
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #4174ff;
+  color: #ffffff;
+  position: relative;
+  left: 575px;
+  bottom: 20px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 52px;
+}
+
+a {
+  padding: 10px;
+}
+
+/* comienzo del centro del html */
+
+.subtitle {
+  margin: 1em;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.subtitle-1 {
+  margin: 1em;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* tabla */
+
+.table-container {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.table-container, thead, tbody, th, td {
+  border: 1px solid #000000;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction:column;
+}
+
+
+.text {
+  margin-left: 5px;
+}
+
+.strong {
+  font-weight: bold;
+  margin: 0;
+}
+
+.parrafos {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  margin: 5px;
+}
+
