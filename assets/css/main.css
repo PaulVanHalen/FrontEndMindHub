@@ -1,0 +1,14 @@
+  .parrafs {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .parrafs p {
+    margin: 10px 0;
+  }
+
+  h2{
+    padding-bottom: 10px;
+  }
+  

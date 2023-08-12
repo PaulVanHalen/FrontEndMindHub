@@ -1,0 +1,39 @@
+   #logo-img {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .menu-aside {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  a{
+    padding: 10px;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .parrafs {
+    flex: 1;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .parrafs p {
+    margin: 10px 0;
+  }
+
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+}

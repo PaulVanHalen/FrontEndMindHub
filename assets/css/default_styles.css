@@ -9,49 +9,42 @@ html {
   }
   
   header {
-    background-image: url("./assets/design1_image1.jpg");
+    background-image: url("../design1_image1.jpg");
     background-size: cover;
     background-position: center;
     height: 20em;
     width: 100%;
-    display: flex;
+    display:inline-block;
+    justify-content: center;
+    align-items: flex-end;
   }
   .title {
     margin-bottom: 10px;
   }
-
-  nav{
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-left: 100px;
-  }
-
+  
   .button{
     text-decoration: none;
     background-color: #4174ff;
     color: #ffffff;
     position: relative;
-    left: 575px;
+    display: inline-block;
+    right: -20em;
     bottom: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
   }
-  
+
+  h1 {
+    color: #000000;
+    font-size: 52px;
+  }
+
   #logo-img {
     width: 90px;
     height: 90px;
     margin-left: auto;
     margin-right: 20px;
     position: relative;
-  }
-  
-  h1 {
-    color: #000000;
-    font-size: 52px;
-  }
-  
-  .menu-aside {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
   }
   
   .menu-aside {
@@ -70,14 +63,3 @@ html {
     align-items: flex-start;
     padding: 20px;
   }
-  
-  .parrafs {
-    flex: 1;
-    padding: 20px;
-    margin-left: 20px;
-  }
-  
-  .parrafs p {
-    margin: 10px 0;
-  }
-  
