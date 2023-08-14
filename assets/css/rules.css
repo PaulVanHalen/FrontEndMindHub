@@ -7,14 +7,19 @@
   flex-direction: column;
   list-style: none;
   padding: 0;
+  margin-left: 1em;
+}
+
+.sportmanship{
+  text-indent: 2em;
 }
 
 .container-2 {
   margin-top: 15px;
 }
 
-.container-2 li h3.subtitle {
-  margin: 10px 0;
+.parrafo{
+  font-size: 18px;
 }
 
 .parrafs {
@@ -23,11 +28,6 @@
 
 .parrafs p {
   margin: 10px 0;
-}
-
-.flex-item {
-  flex: 1;
-  margin: 0 10px; 
 }
 
 ul .all-play1 {
