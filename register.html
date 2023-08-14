@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/hockey.png">
     <link rel="stylesheet" href="./assets/css/normalize.css">
@@ -23,5 +23,107 @@
         <a href="./register.html" class="button" id="button_6">Register</a>
       </nav>
     </header>
+
+<section>
+  <h2> Registration Form</h2>
+  <form action="showdata.html" method="get">
+    <fieldset>
+      <label for="nombre">Player's First Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Name">
+      <label for="nombre">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required placeholder="Last Name"></fieldset>
+      <fieldset><label for="nombre">Street Adress:</label>
+      <input type="text" id="street" name="street" required placeholder="Street"></fieldset>
+      <fieldset>
+        <label for="nombre">City:</label>
+        <input type="text" id="city" name="city" required placeholder="City">
+        <label for="nombre">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode" required placeholder="Zipcode"></fieldset>
+      <fieldset>
+        <label for="fecha_nacimiento">Birth Date(dd/mm/yyyy):</label>
+        <input type="date" id="date" name="date" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+    <option value="masculino">Male</option>
+    <option value="femenino">Female</option>
+</select></fieldset>
+<fieldset>
+  <legend>Grade:</legend>
+  <input type="radio" id="preschool" name="preschool" value="preschool">
+  <span>Pre-School</span>
+
+  <input type="radio" id="first" name="option" value="1st">
+  <span>1st</span>
+  <input type="radio" id="second" name="option" value="2nd">
+  <span>2nd</span>
+  <input type="radio" id="third" name="option" value="3th">
+  <span>3th</span>
+  <input type="radio" id="fourth" name="option" value="4th">
+  <span>4th</span>
+  <input type="radio" id="fifth" name="option" value="5th">
+  <span>5th</span>
+</fieldset>
+<fieldset>  <span>Which Elementary School Do You Live Near</span>
+<fieldset>  <span>Closest School:</span>
+</fieldset>
+<fieldset>  
+  <input type="radio" id="Katzenmaier" name="opt" value="AJ">
+  <span>AJ Katzenmaier</span>
+  <input type="radio" id="Howard" name="opt" value="HAY">
+  <span>Howard A Yeager</span>
+  <input type="radio" id="Greenbay" name="opt" value="GB">
+  <span>Greenbay</span>
+  <input type="radio" id="Marjorie" name="opt" value="MPH">
+  <span>Marjorie P Hart</span>
+  <input type="radio" id="South" name="opt" value="S">
+  <span>South</span>
+  <input type="radio" id="North" name="opt" value="N">
+  <span>North</span></fieldset>
+<fieldset><span>What position(s) do you normally play? (check all the apply)</span></fieldset>
+<fieldset>  
+  <input type="checkbox" id="Forward" name="option" value="1st">
+  <span>Forward</span>
+  <input type="checkbox" id="Midfield" name="option" value="2nd">
+  <span>Midfield</span>
+  <input type="checkbox" id="Defense" name="option" value="3th">
+  <span>Defense</span>
+  <input type="checkbox" id="Goalkepper" name="option" value="4th">
+  <span>Goalkepper</span></fieldset>
+<fieldset>Uniform Size:</fieldset>
+<fieldset>
+
+  <input type="radio" id="YS" name="opt" value="XSSS">
+  <span>Youth Small</span>
+  <input type="radio" id="YM" name="opt" value="XSS">
+  <span>Youth Medium</span>
+  <input type="radio" id="YL" name="opt" value="XS">
+  <span>Youth Large</span>
+  <input type="radio" id="S" name="opt" value="S">
+  <span>Small</span>
+  <input type="radio" id="M" name="opt" value="M">
+  <span>Medium</span>
+  <input type="radio" id="L" name="opt" value="L">
+  <span>Large</span>
+  <input type="radio" id="XL" name="opt" value="XL">
+  <span>X-Large</span>
+
+</fieldset>
+
+<fieldset> <span>Permission To Play</span></fieldset>
+<fieldset></fieldset>
+<fieldset><span> Parent/Guard/Signature:</span><hr></fieldset>
+<fieldset>
+  <label for="Date">Date:</label>
+  <input type="date" id="date" name="date" required></fieldset>
+
+
+
+
+
+      <input type="submit" value="Send">
+
+  </form>
+</section>
+
   </body>
 </html>
