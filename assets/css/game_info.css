@@ -113,4 +113,27 @@ tbody {
   padding: 5px; 
 }
 
+/* maps */
 
+.maps-container{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e5e5;
+  border-radius: 30px;
+}
+
+.maps{
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);    
+}
+
+.title-maps{
+  text-align: center;
+  margin: 10px;
+}
