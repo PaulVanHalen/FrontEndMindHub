@@ -14,25 +14,26 @@ html {
     background-position: center;
     height: 20em;
     width: 100%;
-    display:inline-block;
-    justify-content: center;
-    align-items: flex-end;
+    display:inline-flex;
+    justify-content: end;
+    align-items: flex-start;
   }
   .title {
     margin-bottom: 10px;
   }
-  
+
   .button{
     text-decoration: none;
     background-color: #4174ff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);    
     color: #ffffff;
     position: relative;
-    display: inline-block;
-    right: -20em;
-    bottom: 20px;
+    display: inline-flex;
     padding: 10px 20px;
-    margin: 0 10px;
+    margin: 3px 5px;
   }
+
 
   h1 {
     color: #000000;

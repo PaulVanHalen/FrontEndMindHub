@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.sections {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  margin-bottom: 1em;
-}
-
 .article-container {
   display: flex;
   flex-direction: column;
